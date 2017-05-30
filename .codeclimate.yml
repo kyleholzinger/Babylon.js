@@ -1,0 +1,25 @@
+---
+engines:
+  tslint:
+    enabled: true
+    channel: beta
+  duplication:
+    enabled: false
+    config:
+      languages:
+      - ruby
+      - javascript
+      - python
+      - php
+  eslint:
+    enabled: false
+  fixme:
+    enabled: false
+  radon:
+    enabled: false
+ratings:
+  paths:
+  - "**.ts"
+exclude_paths:
+- dist/
+- tests/
